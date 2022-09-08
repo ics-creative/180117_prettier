@@ -1,3 +1,4 @@
+import * as THREE from 'three';
 const width = 800;
 const height = 600;
 
@@ -40,8 +41,27 @@ function tick(){
 	renderer.render(scene, camera);
 }
 
+const parameter1 = 1;
+const parameter2 = 1;
+const parameter3 = 1;
+const parameter4 = 1;
+const parameter5 = 1;
+const parameter6 = 1;
+const parameter7 = 1;
+const func = (...arg) => {
+	return arg.reduce((a, b) => a + b);
+}
+
 // Prettierでは1行の長さを見て可読性がよくなるように改行を挿入します。（次の行は改行されません）
-let hoge = func(parameter1, parameter2, parameter3, parameter4);
+let hoge = func(parameter1,
+	parameter2,
+            	parameter3,
+	     parameter4);
 
 // Prettierでは1行の長さを見て可読性がよくなるように改行を挿入します。（次の行は改行されます）
-let fuga = func(parameter1, parameter2, parameter3, parameter4, parameter5, parameter6, parameter7);
+let fuga = func(parameter1,
+	parameter2, parameter3, parameter4,
+	parameter5, parameter6,
+	parameter7);
+
+console.log(hoge, fuga)
