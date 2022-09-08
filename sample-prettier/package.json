@@ -3,6 +3,6 @@
     "format": "prettier --write 'src/**/*.js'"
   },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.1"
   }
 }
