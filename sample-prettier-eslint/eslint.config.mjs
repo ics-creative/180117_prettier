@@ -1,6 +1,6 @@
-import neostandard from 'neostandard';
+import neostandard from "neostandard";
 
 export default neostandard({
-    noStyle: true,
-    env: ['browser']
-})
+  noStyle: true,
+  env: ["browser"],
+});
