@@ -3,9 +3,8 @@
     "format": "eslint src --fix && prettier --write src"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard": "^17.1.0",
+    "eslint": "^9.25.1",
+    "neostandard": "^0.12.1",
     "prettier": "^3.2.5"
   }
 }
